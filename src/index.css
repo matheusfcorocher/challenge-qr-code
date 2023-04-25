@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.card {
+    height: 30rem;
+    width: 18rem;
+    margin: auto;
+    padding: 2rem;
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+
+    /*rules for items*/
+    display: flex;
+    flex-direction: column;
+    align-items: initial;
+    justify-content: center;
+
+    text-align: center;
+}
+
+.qr-code {
+    border-radius: 1rem;
+}
