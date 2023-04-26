@@ -1,8 +1,27 @@
+:root {
+    /*Colors*/
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+
+    /*Typography*/
+    --font-family: 'Outfit', sans-serif;
+    --font-size-medium: 1rem;
+    --font-size-large: 1.25rem;
+
+    /*Spacing*/
+    --space-medium: 1rem;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Outfit', sans-serif;
+
+    /*Typography*/
+    font-family: var(--font-family);
+    font-size: var(--font-size-medium);
 }
 
 body {
@@ -10,15 +29,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #d5e1ef;
+    background-color: var(--light-gray);
 }
 
 .card {
     width: 18rem;
     margin: auto;
-    padding: 1rem;
+    padding: var(--space-medium);
     border-radius: 1rem;
-    background-color: #ffffff;
+    background-color: var(--white);
 
     /*rules for items*/
     display: flex;
@@ -29,19 +48,18 @@ body {
 
 .qr-code {
     border-radius: 0.5rem;
-    margin-bottom: 1rem;
+    margin-bottom: var(--space-medium);
 }
 
 .title {
-    color: hsl(218, 44%, 22%);
+    color: var(--dark-blue);
     font-weight: 700;
-    font-size: 1.25rem;
-    margin-bottom: 1rem;
+    font-size: var(--font-size-large);
+    margin-bottom: var(--space-medium);
 }
 
 .text {
-    color: hsl(220, 15%, 55%);
+    color: var(--grayish-blue);
     font-weight: 400;
-    font-size: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: var(--space-medium);
 }
