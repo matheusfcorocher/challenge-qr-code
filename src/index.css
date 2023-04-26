@@ -6,25 +6,41 @@
 
 body {
     min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d5e1ef;
 }
 
 .card {
-    height: 30rem;
     width: 18rem;
     margin: auto;
-    padding: 2rem;
-    border: 0.1rem solid black;
+    padding: 1rem;
     border-radius: 1rem;
+    background-color: #ffffff;
 
     /*rules for items*/
     display: flex;
     flex-direction: column;
     align-items: initial;
-    justify-content: center;
-
     text-align: center;
 }
 
 .qr-code {
-    border-radius: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.title {
+    color: #505c6e;
+    font-size: 1.5rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 1rem;
+}
+
+.text {
+    color: #a7abb2;
+    font-size: 1rem;
+    font-family: 'Jost', sans-serif;
+    margin-bottom: 1rem;
 }
