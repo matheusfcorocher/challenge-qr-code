@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
 }
 
 body {
@@ -32,15 +33,15 @@ body {
 }
 
 .title {
-    color: #505c6e;
-    font-size: 1.5rem;
-    font-family: 'Roboto Condensed', sans-serif;
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+    font-size: 1.25rem;
     margin-bottom: 1rem;
 }
 
 .text {
-    color: #a7abb2;
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
     font-size: 1rem;
-    font-family: 'Jost', sans-serif;
     margin-bottom: 1rem;
 }
